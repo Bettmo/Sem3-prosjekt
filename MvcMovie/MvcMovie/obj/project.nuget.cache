@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KZ6Q214wo3uOVUeXHQcYm+QYrVApcYRJaANCgVePf5T6i3ipI5SabvbYIgjV3SOZfCam3QS7XRZhnCJAntd9VA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ericb\\source\\repos\\Bettmo\\Sem3-prosjekt\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ericb\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}
