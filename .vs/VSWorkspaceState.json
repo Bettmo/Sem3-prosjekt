@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Nøsted"
+    "\\Nøsted\\Controllers",
+    "\\Nøsted\\Properties",
+    "\\Nøsted\\Views",
+    "\\Nøsted\\Views\\Home",
+    "\\Nøsted\\Views\\Shared"
   ],
-  "SelectedNode": "\\Nøsted\\Nøsted.csproj",
+  "SelectedNode": "\\Nøsted",
   "PreviewInSolutionExplorer": false
 }
