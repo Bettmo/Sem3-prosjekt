@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ericb\\Source\\Repos\\Bettmo\\Sem3-prosjekt\\Nøsted\\Nøsted.csproj": {}
+    "/Users/ericbettmo/Sem3-prosjekt/Nøsted/Nøsted.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ericb\\Source\\Repos\\Bettmo\\Sem3-prosjekt\\Nøsted\\Nøsted.csproj": {
+    "/Users/ericbettmo/Sem3-prosjekt/Nøsted/Nøsted.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ericb\\Source\\Repos\\Bettmo\\Sem3-prosjekt\\Nøsted\\Nøsted.csproj",
+        "projectUniqueName": "/Users/ericbettmo/Sem3-prosjekt/Nøsted/Nøsted.csproj",
         "projectName": "Nøsted",
-        "projectPath": "C:\\Users\\Ericb\\Source\\Repos\\Bettmo\\Sem3-prosjekt\\Nøsted\\Nøsted.csproj",
-        "packagesPath": "C:\\Users\\Ericb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ericb\\Source\\Repos\\Bettmo\\Sem3-prosjekt\\Nøsted\\obj\\",
+        "projectPath": "/Users/ericbettmo/Sem3-prosjekt/Nøsted/Nøsted.csproj",
+        "packagesPath": "/Users/ericbettmo/.nuget/packages/",
+        "outputPath": "/Users/ericbettmo/Sem3-prosjekt/Nøsted/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ericb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ericbettmo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
