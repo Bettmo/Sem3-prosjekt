@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hB34RVSHW3+A9puUlAUWyrjjbvgwi+plVDxv3xYz6+w/TkhoxKE+vkWgZqzXmMv+2Z51vToj5E/EiimJlhox+Q==",
+  "dgSpecHash": "icqrO0e2WUsVdPwjh9cOIfTGsWF/KiynaWuhlgEJwFA7jHY+co0z6fCOmBLFtse6vrn6LQIg1pyl4t3i4Y1d/w==",
   "success": true,
-  "projectFilePath": "/Users/ericbettmo/Sem3-prosjekt/Nøsted/Nøsted.csproj",
+  "projectFilePath": "C:\\Users\\Ericb\\Source\\Repos\\Bettmo\\Sem3-prosjekt\\Nøsted\\Nøsted.csproj",
   "expectedPackageFiles": [
-    "/Users/ericbettmo/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.19.4/microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+    "C:\\Users\\Ericb\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
   ],
   "logs": []
 }
