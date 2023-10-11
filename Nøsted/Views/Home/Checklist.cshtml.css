@@ -1,0 +1,8 @@
+
+#checklist{
+    border: solid black 1px;
+    background-color: lightslategray;
+}
+.cell{
+    background-color: darkslategray;
+}
