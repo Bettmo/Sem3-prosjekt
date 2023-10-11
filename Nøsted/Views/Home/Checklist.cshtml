@@ -1,10 +1,340 @@
-﻿@{
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sjekkliste</title>
+    <link rel="stylesheet" href="sjekkliste.css">
+</head>
+<body>
+    @{
     ViewData["Title"] = "Checklist";
-}
-<h1>@ViewData["Title"]</h1>
+    }
+    <h1>@ViewData["Title"]</h1>
 
-<div id="checklist">
-    <div class="cell" id="cell1">a</div>
-    <div class="cell" id="cell2">b</div>
-</div>
-
+    <form id="checklist">
+        <div class="rowType" id="header">
+            <div class="rowTypeHeader">Serie nr.</div>
+            <div>Type:</div>
+        </div>
+        <div class="rowType" id="subHeader">
+            <div></div>
+            <div>Sjekkpunkter:</div>
+            <div>Ok</div>
+            <div>Bør skiftes</div>
+            <div>Defekt</div>
+        </div>
+        <div class="rowType" id="mekanisk">
+            <div class="rowTypeHeader">Mekanisk</div>
+            <div id="mekaniskPunkter">
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt1">Sjekk clutsj lameller for slitasje</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt1">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt1">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt1">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt2">Sjekk bremser. Bånd/Pal</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt2">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt2">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt2">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt3">Sjekk lager for trommel</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt3">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt3">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt3">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt4">Sjekk PTO for opplagring</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt4">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt4">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt4">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt5">Sjekk kjedestrammer</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt5">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt5">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt5">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt6">Sjekk wire</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt6">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt6">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt6">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt7">Sjekk pinion lager</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt7">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt7">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt7">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt8">Sjekk kile på kjedehjul</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt8">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt8">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt8">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt9">x</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt9">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt9">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt9">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rowType" id="hydraulisk">
+            <div class="rowTypeHeader">Hydraulisk</div>
+            <div id="hydrauliskPunkter">
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt11">Sjekk hydraylikk sylinder for lekkasje</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt11">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt11">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt11">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt12">Sjekk slager for skader og lekkasje</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt12">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt12">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt12">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt13">Test hydraulikkblokk i testbenk</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt13">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt13">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt13">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt14">Skift olje i tank</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt14">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt14">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt14">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt15">Skift olje på gir boks</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt15">
+                    </div>
+                    <div class="borSkiftes" name="sjekkpunkt15">
+                        <input type="radio">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt15">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt16">Sjekk Ringsylinder åpne og skift tetninger</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt16">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt16">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt16">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt17">Sjekk bremse sylinder åpne og skift tetninger</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt17">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt17">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt17">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt18">x</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt18">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt18">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt18">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rowType" id="elektro">
+            <div class="rowTypeHeader">Elektro</div>
+            <div id="elektroPunkter">
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt21">Sjekk ledningsnett på vinsj</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt21">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt21">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt21">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt22">Sjekk og test radio</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt22">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt22">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt22">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt23">Sjekk og test knappekasse</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt23">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt23">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt23">
+                    </div>
+                </div>
+                <div class="sjekkpunkt">
+                    <div id="sjekkpunkt24">x</div>
+                    <div class="ok">
+                        <input type="radio" name="sjekkpunkt24">
+                    </div>
+                    <div class="borSkiftes">
+                        <input type="radio" name="sjekkpunkt24">
+                    </div>
+                    <div class="defekt">
+                        <input type="radio" name="sjekkpunkt24">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rowType" id="trykkSetting">
+            <div class="rowTypeHeader">Trykk settinger</div>
+            <div id="trykkSettingPunkter">
+                <div id="trykkSettingPunkt">
+                    <div class="trykkSettingPunktDiv">
+                        <div>x-Bar</div>
+                        <div><input type="text"></div>
+                    </div>
+                    <div class="trykkSettingPunktDiv">
+                        <div>x</div>
+                        <div><input type="text"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rowType" id="funksjonsTest">
+            <div class="rowTypeHeader">Funksjons test</div>
+            <div id="funksjonsTestPunkter">
+                <div class="funksjonsTestFunksjoner">
+                    <div>Test vinsj og kjør alle funksjoner</div>
+                    <div><input type="text"></div>
+                </div>
+                <div class="funksjonsTestFunksjoner">
+                    <div>Trekkkraft KN</div>
+                    <div><input type="text"></div>
+                </div>
+                <div class="funksjonsTestFunksjoner">
+                    <div> Bremsekraft KN</div>
+                    <div><input type="text"></div>
+                </div>
+            </div>
+        </div>
+        <div class="rowType" id="kommentar">
+            <div class="rowTypeHeader">Kommentar</div>
+            <div><input type="text"></div>
+        </div>
+        <div class="rowType" id="sign">
+            <div id="signSign">Signatur</div>
+            <div>x</div>
+            <div id="signDato">Dato:</div>
+            <div><input type="datetime-local"></div>
+        </div>
+        </form>
+            <button type="submit" id="sendInnKnapp">Send inn</button>
+</body>
+</html>
