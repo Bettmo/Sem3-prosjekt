@@ -88,3 +88,6 @@ C:\Users\Ericb\Source\Repos\Bettmo\Sem3-prosjekt\Nøsted\obj\Debug\net7.0\refint
 C:\Users\Ericb\Source\Repos\Bettmo\Sem3-prosjekt\Nøsted\obj\Debug\net7.0\Nøsted.pdb
 C:\Users\Ericb\source\repos\Bettmo\Sem3-prosjekt\Nøsted\obj\Debug\net7.0\Nøsted.genruntimeconfig.cache
 C:\Users\Ericb\source\repos\Bettmo\Sem3-prosjekt\Nøsted\obj\Debug\net7.0\ref\Nøsted.dll
+C:\Users\hkerl\Source\Repos\Bettmo\Sem3-prosjekt\Nøsted\obj\Debug\net7.0\Nøsted.dll
+C:\Users\hkerl\Source\Repos\Bettmo\Sem3-prosjekt\Nøsted\obj\Debug\net7.0\refint\Nøsted.dll
+C:\Users\hkerl\Source\Repos\Bettmo\Sem3-prosjekt\Nøsted\obj\Debug\net7.0\Nøsted.pdb
