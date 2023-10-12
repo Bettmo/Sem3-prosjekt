@@ -1,11 +1,82 @@
 /* _content/Nøsted/Views/Home/Checklist.cshtml.rz.scp.css */
 
-#checklist[b-4qm1nl3ll0]{
-    border: solid black 1px;
-    background-color: lightslategray;
+#checklist[b-4qm1nl3ll0] {
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    height: 400px;
 }
-.cell[b-4qm1nl3ll0]{
-    background-color: darkslategray;
+
+.rowType[b-4qm1nl3ll0] {
+    border: solid black 1px;
+    padding: 10px 5px;
+    height: fit-content;
+}
+
+#header[b-4qm1nl3ll0] {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+#subHeader[b-4qm1nl3ll0] {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+}
+
+#mekanisk[b-4qm1nl3ll0] {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.sjekkpunkt[b-4qm1nl3ll0] {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+#hydraulisk[b-4qm1nl3ll0] {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+#elektro[b-4qm1nl3ll0] {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+#trykkSetting[b-4qm1nl3ll0] {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.trykkSettingPunktDiv[b-4qm1nl3ll0] {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+#funksjonsTest[b-4qm1nl3ll0] {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.funksjonsTestFunksjoner[b-4qm1nl3ll0] {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+#kommentar[b-4qm1nl3ll0] {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+#sign[b-4qm1nl3ll0] {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#sendInnKnapp[b-4qm1nl3ll0] {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(22, 167, 22);
+    margin: 40px auto;
 }
 /* _content/Nøsted/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification

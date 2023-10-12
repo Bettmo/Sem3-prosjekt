@@ -64,14 +64,7 @@ C:/Users/hkerl/Source/Repos/Bettmo/Sem3-prosjekt/Nøsted/obj/Debug/net7.0/refint
 C:/Users/hkerl/Source/Repos/Bettmo/Sem3-prosjekt/Nøsted/obj/Debug/net7.0/Nøsted.pdb
 =======
 >>>>>>> Stashed changes
-/Users/ericbettmo/Sem3-prosjekt/Nøsted/bin/Debug/net7.0/Humanizer.dll
-/Users/ericbettmo/Sem3-prosjekt/Nøsted/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
-/Users/ericbettmo/Sem3-prosjekt/Nøsted/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/ericbettmo/Sem3-prosjekt/Nøsted/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
-/Users/ericbettmo/Sem3-prosjekt/Nøsted/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
-/Users/ericbettmo/Sem3-prosjekt/Nøsted/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
-/Users/ericbettmo/Sem3-prosjekt/Nøsted/bin/Debug/net7.0/Mono.TextTemplating.dll
-/Users/ericbettmo/Sem3-prosjekt/Nøsted/bin/Debug/net7.0/System.CodeDom.dll
 /Users/ericbettmo/Sem3-prosjekt/Nøsted/obj/Debug/net7.0/Nøsted.csproj.AssemblyReference.cache
 /Users/ericbettmo/Sem3-prosjekt/Nøsted/obj/Debug/net7.0/scopedcss/Views/Home/Checklist.cshtml.rz.scp.css
 /Users/ericbettmo/Sem3-prosjekt/Nøsted/obj/Debug/net7.0/Nøsted.csproj.CopyComplete
+/Users/ericbettmo/Sem3-prosjekt/Nøsted/bin/Debug/net7.0/Dapper.dll

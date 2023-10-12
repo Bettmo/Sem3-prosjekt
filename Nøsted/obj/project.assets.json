@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Dapper/2.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.4": {
         "type": "package",
         "build": {
@@ -12,6 +25,25 @@
     }
   },
   "libraries": {
+    "Dapper/2.1.4": {
+      "sha512": "TnTa28ktP/drRXnnXChHANq2WoF8af9DLu3VBtyPn3RYjxwDzuYhGrSvAN2CrmE+RyNaN1v81kf6rYbp0a4UaQ==",
+      "type": "package",
+      "path": "dapper/2.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.4.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
+      ]
+    },
     "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.19.4": {
       "sha512": "aKxpRAUIxDrnSnyr7xJWGixOBgsB7Z4oHpWRkpRzzq04kfze4mN7944gRc4X9H2U5KG3A/btF74kavkO8KXqCg==",
       "type": "package",
@@ -96,6 +128,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Dapper >= 2.1.4",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.4"
     ]
   },
@@ -137,6 +170,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.1.4, )"
+          },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.19.4, )"
