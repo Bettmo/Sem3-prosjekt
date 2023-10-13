@@ -18,6 +18,21 @@
     grid-template-columns: 1fr 5fr;
 }
 
+#header div {
+    display: flex;
+    margin: auto 0;
+}
+
+#serieInp {
+    width: 60%;
+    text-align: right;
+    margin: auto;
+}
+
+#typeInp {
+    width: 40%;
+}
+
 #subHeader {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
