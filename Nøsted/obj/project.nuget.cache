@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AtA/mlzwsFzGZrzj1hP93SpMEqVCK/bUrTsw6lw4F9MXyMu2gPUiY3XycVMNSyCMtsoBsetyL+95Wuv12nZ1/Q==",
+  "dgSpecHash": "oh55+u+nWSCMLetjHMfK85Pt61VCe1+rocy663slsIXPDFEt3hDS2ML7SKZUgqFGOO1gCqCNW1aLApiNzePgrQ==",
   "success": true,
-  "projectFilePath": "/Users/ericbettmo/Sem3-prosjekt/Nøsted/Nøsted.csproj",
+  "projectFilePath": "/Users/sofiasaelim/Desktop/Nøsted/Sem3-prosjekt/Nøsted/Nøsted.csproj",
   "expectedPackageFiles": [
-    "/Users/ericbettmo/.nuget/packages/dapper/2.1.4/dapper.2.1.4.nupkg.sha512",
-    "/Users/ericbettmo/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.19.4/microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
-    "/Users/ericbettmo/.nuget/packages/mysqlconnector/2.2.7/mysqlconnector.2.2.7.nupkg.sha512"
+    "/Users/sofiasaelim/.nuget/packages/dapper/2.1.4/dapper.2.1.4.nupkg.sha512",
+    "/Users/sofiasaelim/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.19.4/microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
+    "/Users/sofiasaelim/.nuget/packages/mysqlconnector/2.2.7/mysqlconnector.2.2.7.nupkg.sha512"
   ],
   "logs": []
 }

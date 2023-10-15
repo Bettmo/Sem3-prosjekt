@@ -1,6 +1,6 @@
 ﻿namespace Nøsted.Models
 {
-    public class ChecklistController
+    public class ChecklistModel
     {
         //Legg til datafeltene fra skjemaet
         // Datafelt for sjekkliste mekanisk
