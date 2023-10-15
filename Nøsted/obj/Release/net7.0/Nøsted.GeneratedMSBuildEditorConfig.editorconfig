@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Nøsted
 build_property.RootNamespace = Nøsted
-build_property.ProjectDir = /Users/sofiasaelim/Desktop/Nøsted/Sem3-prosjekt/Nøsted/
+build_property.ProjectDir = C:\Users\Trym-\source\repos\Sem3-prosjekt\Nøsted\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/sofiasaelim/Desktop/Nøsted/Sem3-prosjekt/Nøsted
+build_property.MSBuildProjectDirectory = C:\Users\Trym-\source\repos\Sem3-prosjekt\Nøsted
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/sofiasaelim/Desktop/Nøsted/Sem3-prosjekt/Nøsted/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/Trym-/source/repos/Sem3-prosjekt/Nøsted/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sofiasaelim/Desktop/Nøsted/Sem3-prosjekt/Nøsted/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/Trym-/source/repos/Sem3-prosjekt/Nøsted/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sofiasaelim/Desktop/Nøsted/Sem3-prosjekt/Nøsted/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/Trym-/source/repos/Sem3-prosjekt/Nøsted/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sofiasaelim/Desktop/Nøsted/Sem3-prosjekt/Nøsted/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/Trym-/source/repos/Sem3-prosjekt/Nøsted/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sofiasaelim/Desktop/Nøsted/Sem3-prosjekt/Nøsted/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/Trym-/source/repos/Sem3-prosjekt/Nøsted/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sofiasaelim/Desktop/Nøsted/Sem3-prosjekt/Nøsted/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/Trym-/source/repos/Sem3-prosjekt/Nøsted/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sofiasaelim/Desktop/Nøsted/Sem3-prosjekt/Nøsted/Views/Home/Checklist.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DaGVja2xpc3QuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-4qm1nl3ll0
+[C:/Users/Trym-/source/repos/Sem3-prosjekt/Nøsted/Views/Home/Checklist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja2xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3azj7ij5ks
 
-[/Users/sofiasaelim/Desktop/Nøsted/Sem3-prosjekt/Nøsted/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-9rc5a8gtqq
+[C:/Users/Trym-/source/repos/Sem3-prosjekt/Nøsted/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-yinou6dtwl
