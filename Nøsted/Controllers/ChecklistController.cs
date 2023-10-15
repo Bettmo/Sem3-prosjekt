@@ -1,17 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using System.Data;
+using System.Data.Common;
+using System.Data.SqlClient;
+using Dapper;
 
 namespace Nøsted.Controllers
 {
     public class ChecklistController : Controller
     {
-        private readonly ApplicationDbContext _context;
-
-        public ChecklistController(ApplicationDbContext context)
-        {
-            _context = context;
-        }
-
+        
+        
         public IActionResult Lag()
         {
             return View();
@@ -22,11 +21,11 @@ namespace Nøsted.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Skjema.Add(skjema);
-                _context.SaveChanges();
-                return RedirectToAction("Index");
+                
             }
             return View(skjema);
         }
+        
+        
     }
 }
