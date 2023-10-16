@@ -15,15 +15,21 @@
 
     <form id="checklist">
         <div class="rowType" id="header">
-            <div class="rowTypeHeader">Serie nr.</div>
-            <div>Type:</div>
+            <div class="rowTypeHeader">
+                <div>Serie nr.</div>
+                <div id="serieInp"><input type="text"></div>
+            </div>
+            <div>
+                <div>Type:</div>
+                <div id="typeInp"><input type="text"></div>
+            </div>
         </div>
         <div class="rowType" id="subHeader">
             <div></div>
             <div>Sjekkpunkter:</div>
-            <div>Ok</div>
-            <div>Bør skiftes</div>
-            <div>Defekt</div>
+            <div class="OBSD">Ok</div>
+            <div class="OBSD">Bør skiftes</div>
+            <div class="OBSD">Defekt</div>
         </div>
         <div class="rowType" id="mekanisk">
             <div class="rowTypeHeader">Mekanisk</div>
@@ -334,7 +340,7 @@
             <div id="signDato">Dato:</div>
             <div><input type="datetime-local"></div>
         </div>
-        </form>
-            <button type="submit" id="sendInnKnapp">Send inn</button>
+        <button type="submit" id="sendInnKnapp">Send inn</button>
+    </form>
 </body>
 </html>

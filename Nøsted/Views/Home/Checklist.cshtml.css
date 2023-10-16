@@ -1,8 +1,10 @@
-
+/* Brukkbar */
 #checklist {
     display: grid;
     grid-template-rows: repeat(9, 1fr);
     height: 400px;
+    width: 90%;
+    margin: auto;
 }
 
 .rowType {
@@ -16,9 +18,24 @@
     grid-template-columns: 1fr 5fr;
 }
 
+#header div {
+    display: flex;
+    margin: auto 0;
+}
+
+#serieInp {
+    width: 60%;
+    text-align: right;
+    margin: auto;
+}
+
+#typeInp {
+    width: 40%;
+}
+
 #subHeader {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
 }
 
 #mekanisk {
@@ -76,4 +93,41 @@
     height: 30px;
     background-color: rgb(22, 167, 22);
     margin: 40px auto;
+}
+
+
+/* Pynt */
+.rowTypeHeader {
+    margin: auto;
+}
+
+.OBSD {
+    text-align: center;
+}
+
+.ok, .borSkiftes, .defekt {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 95%;
+    min-height: 20px;
+    margin: 5px 5px;
+}
+
+input[type="radio"] {
+    height: 20px;
+    width: 20px;
+}
+
+.ok input[type="radio"] {
+    accent-color: green;
+}
+
+.borSkiftes input[type="radio"] {
+    accent-color: #FBBD04;
+}
+
+.defekt input[type="radio"] {
+    accent-color: red;
 }
