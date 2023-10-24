@@ -13,15 +13,15 @@
     }
     <h1>@ViewData["Title"]</h1>
 
-    <form id="checklist">
+    <form id="checklist" asp-action=""> <!-- må legge til en asp-action!! -->
         <div class="rowType" id="header">
             <div class="rowTypeHeader">
-                <div>Serie nr.</div>
-                <div id="serieInp"><input type="text"></div>
+                <label for="serieInp">Serie nr.</label>
+                <input id="serieInp" type="text">
             </div>
             <div>
-                <div>Type:</div>
-                <div id="typeInp"><input type="text"></div>
+                <label for="typeInp">Type:</label>
+                <input id="typeInp" type="text">
             </div>
         </div>
         <div class="rowType" id="subHeader">
@@ -35,111 +35,111 @@
             <div class="rowTypeHeader">Mekanisk</div>
             <div id="mekaniskPunkter">
                 <div class="sjekkpunkt">
-                    <div id="sjekkpunkt1">Sjekk clutsj lameller for slitasje</div>
+                    <label id="sjekkpunkt1" for="radio1">Sjekk clutsj lameller for slitasje</label>
                     <div class="ok">
-                        <input type="radio" name="sjekkpunkt1">
+                        <input type="radio" id="radio1" name="sjekkpunkt1">
                     </div>
                     <div class="borSkiftes">
-                        <input type="radio" name="sjekkpunkt1">
+                        <input type="radio" id="radio1" name="sjekkpunkt1">
                     </div>
                     <div class="defekt">
-                        <input type="radio" name="sjekkpunkt1">
+                        <input type="radio" id="radio1" name="sjekkpunkt1">
                     </div>
                 </div>
                 <div class="sjekkpunkt">
-                    <div id="sjekkpunkt2">Sjekk bremser. Bånd/Pal</div>
+                    <label id="sjekkpunkt2" for="radio2">Sjekk bremser. Bånd/Pal</label>
                     <div class="ok">
-                        <input type="radio" name="sjekkpunkt2">
+                        <input type="radio" id="radio2" name="sjekkpunkt2">
                     </div>
                     <div class="borSkiftes">
-                        <input type="radio" name="sjekkpunkt2">
+                        <input type="radio" id="radio2" name="sjekkpunkt2">
                     </div>
                     <div class="defekt">
-                        <input type="radio" name="sjekkpunkt2">
+                        <input type="radio" id="radio2" name="sjekkpunkt2">
                     </div>
                 </div>
                 <div class="sjekkpunkt">
-                    <div id="sjekkpunkt3">Sjekk lager for trommel</div>
+                    <label id="sjekkpunkt3" for="radio3">Sjekk lager for trommel</label>
                     <div class="ok">
-                        <input type="radio" name="sjekkpunkt3">
+                        <input type="radio" id="radio3" name="sjekkpunkt3">
                     </div>
                     <div class="borSkiftes">
-                        <input type="radio" name="sjekkpunkt3">
+                        <input type="radio" id="radio3" name="sjekkpunkt3">
                     </div>
                     <div class="defekt">
-                        <input type="radio" name="sjekkpunkt3">
+                        <input type="radio" id="radio3" name="sjekkpunkt3">
                     </div>
                 </div>
                 <div class="sjekkpunkt">
-                    <div id="sjekkpunkt4">Sjekk PTO for opplagring</div>
+                    <label id="sjekkpunkt4" for="radio4">Sjekk PTO for opplagring</label>
                     <div class="ok">
-                        <input type="radio" name="sjekkpunkt4">
+                        <input type="radio" id="radio4" name="sjekkpunkt4">
                     </div>
                     <div class="borSkiftes">
-                        <input type="radio" name="sjekkpunkt4">
+                        <input type="radio" id="radio4" name="sjekkpunkt4">
                     </div>
                     <div class="defekt">
-                        <input type="radio" name="sjekkpunkt4">
+                        <input type="radio" id="radio4" name="sjekkpunkt4">
                     </div>
                 </div>
                 <div class="sjekkpunkt">
-                    <div id="sjekkpunkt5">Sjekk kjedestrammer</div>
+                    <label id="sjekkpunkt5" for="radio5">Sjekk kjedestrammer</label>
                     <div class="ok">
-                        <input type="radio" name="sjekkpunkt5">
+                        <input type="radio" id="radio5" name="sjekkpunkt5">
                     </div>
                     <div class="borSkiftes">
-                        <input type="radio" name="sjekkpunkt5">
+                        <input type="radio" id="radio5" name="sjekkpunkt5">
                     </div>
                     <div class="defekt">
-                        <input type="radio" name="sjekkpunkt5">
+                        <input type="radio" id="radio5" name="sjekkpunkt5">
                     </div>
                 </div>
                 <div class="sjekkpunkt">
-                    <div id="sjekkpunkt6">Sjekk wire</div>
+                    <label id="sjekkpunkt6" for="radio6">Sjekk wire</label>
                     <div class="ok">
-                        <input type="radio" name="sjekkpunkt6">
+                        <input type="radio" id="radio6" name="sjekkpunkt6">
                     </div>
                     <div class="borSkiftes">
-                        <input type="radio" name="sjekkpunkt6">
+                        <input type="radio" id="radio6" name="sjekkpunkt6">
                     </div>
                     <div class="defekt">
-                        <input type="radio" name="sjekkpunkt6">
+                        <input type="radio" id="radio6" name="sjekkpunkt6">
                     </div>
                 </div>
                 <div class="sjekkpunkt">
-                    <div id="sjekkpunkt7">Sjekk pinion lager</div>
+                    <label id="sjekkpunkt7" for="radio7">Sjekk pinion lager</label>
                     <div class="ok">
-                        <input type="radio" name="sjekkpunkt7">
+                        <input type="radio" id="radio7" name="sjekkpunkt7">
                     </div>
                     <div class="borSkiftes">
-                        <input type="radio" name="sjekkpunkt7">
+                        <input type="radio" id="radio7" name="sjekkpunkt7">
                     </div>
                     <div class="defekt">
-                        <input type="radio" name="sjekkpunkt7">
+                        <input type="radio" id="radio7" name="sjekkpunkt7">
                     </div>
                 </div>
                 <div class="sjekkpunkt">
-                    <div id="sjekkpunkt8">Sjekk kile på kjedehjul</div>
+                    <label id="sjekkpunkt8" for="radio8">Sjekk kile på kjedehjul</label>
                     <div class="ok">
-                        <input type="radio" name="sjekkpunkt8">
+                        <input type="radio" id="radio8" name="sjekkpunkt8">
                     </div>
                     <div class="borSkiftes">
-                        <input type="radio" name="sjekkpunkt8">
+                        <input type="radio" id="radio8" name="sjekkpunkt8">
                     </div>
                     <div class="defekt">
-                        <input type="radio" name="sjekkpunkt8">
+                        <input type="radio" id="radio8" name="sjekkpunkt8">
                     </div>
                 </div>
                 <div class="sjekkpunkt">
-                    <div id="sjekkpunkt9">x</div>
-                    <div class="ok">
-                        <input type="radio" name="sjekkpunkt9">
+                    <label id="sjekkpunkt9" for="radio9">x</label>
+                     <div class="ok">
+                        <input type="radio" id="radio9" name="sjekkpunkt9">
                     </div>
                     <div class="borSkiftes">
-                        <input type="radio" name="sjekkpunkt9">
+                        <input type="radio" id="radio9" name="sjekkpunkt9">
                     </div>
                     <div class="defekt">
-                        <input type="radio" name="sjekkpunkt9">
+                        <input type="radio" id="radio9" name="sjekkpunkt9">
                     </div>
                 </div>
             </div>

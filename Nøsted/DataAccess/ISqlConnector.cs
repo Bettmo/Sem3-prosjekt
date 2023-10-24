@@ -5,7 +5,7 @@ namespace Nøsted.DataAccess;
 
 public class ISqlConnector
 {
-    public interface ISqlConnector
+    public interface IsqlConnector
     {
         IDbConnection GetDbConnection();
     }
